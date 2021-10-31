@@ -88,7 +88,7 @@ async def initialize_ws_and_send_request():
         await ws.send(big_array)
         # waiting for the response
         response = await ws.recv()
-        # priting the response
+        # printing the response
         pb(response, 1)
 
 
